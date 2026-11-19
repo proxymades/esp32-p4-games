@@ -1,0 +1,33 @@
+menu "P4-NANO Games"
+    choice P4GAME_BOOT_MODE
+        prompt "Startup mode"
+        default P4GAME_BOARD_CHECK
+        config P4GAME_BOARD_CHECK
+            bool "Board and emulator diagnostics (no external peripherals required)"
+        config P4GAME_PERIPHERAL_TEST
+            bool "Display, buttons, audio and SD diagnostics"
+        config P4GAME_ROM_TEST
+            bool "Private embedded ROM test over SPI/I2S (no SD required)"
+        config P4GAME_PLAY
+            bool "Play ROM from microSD"
+    endchoice
+    config P4GAME_TEST_FRAMES
+        int "Frames in private ROM diagnostic"
+        depends on P4GAME_ROM_TEST
+        range 600 36000
+        default 7200
+    config P4GAME_LCD_CLOCK_HZ
+        int "Display SPI clock (Hz)"
+        range 1000000 80000000
+        default 20000000
+        help
+            20 MHz is the baseline of the supplied ST7789 profile.
+            Higher clocks require validation on the actual module.
+    config P4GAME_AUDIO_VOLUME
+        int "Speaker volume (%)"
+        range 0 100
+        default 95
+    config P4GAME_ROM_PATH
+        string "ROM path"
+        default "/sd/roms/comix_zone.bin"
+endmenu

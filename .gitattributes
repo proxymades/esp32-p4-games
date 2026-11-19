@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Preserve pinned upstream blob hashes on every platform.
+components/gwenesis/upstream/** -text !eol

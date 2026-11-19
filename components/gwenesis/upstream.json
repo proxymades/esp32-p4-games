@@ -1,0 +1,207 @@
+{
+  "repository": "https://github.com/giltal/ESP32_P4_Launcher",
+  "revision": "7d16abd2ea4497e610dd9e5cbf88090cd2521755",
+  "prefix": "apps/genesis/core/",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "size": 34523
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "6bd7480cc9be397cfd4db3c6d3d905ac3a81c53e",
+      "size": 382
+    },
+    {
+      "path": "src/bus/gwenesis_bus.c",
+      "git_blob_sha1": "3e18f1144633100eb2ac1253031f3239e8602e3e",
+      "size": 19687
+    },
+    {
+      "path": "src/bus/gwenesis_bus.h",
+      "git_blob_sha1": "dd499b350bf77260012a6b5acb0fa5a36dc64228",
+      "size": 2225
+    },
+    {
+      "path": "src/cpus/M68K/m68k.h",
+      "git_blob_sha1": "4465d92064e4babdeb00fa5fad167666c7d54c3c",
+      "size": 16428
+    },
+    {
+      "path": "src/cpus/M68K/m68kconf.h",
+      "git_blob_sha1": "8613cc7f0ea696f2c21052b7a4edc3f4e6a35783",
+      "size": 3694
+    },
+    {
+      "path": "src/cpus/M68K/m68kcpu.c",
+      "git_blob_sha1": "96fc31e1eb6e6e9adb54f0777b121c3ec171e3fe",
+      "size": 15132
+    },
+    {
+      "path": "src/cpus/M68K/m68kcpu.h",
+      "git_blob_sha1": "935e8217abc94973b6709ab1ea8e5e2a95bc4e89",
+      "size": 55124
+    },
+    {
+      "path": "src/cpus/M68K/m68ki_cycles.h",
+      "git_blob_sha1": "9251eaa7bd361a6ae031c7489272b34bbe226a6b",
+      "size": 441193
+    },
+    {
+      "path": "src/cpus/M68K/m68ki_cycles_full.h",
+      "git_blob_sha1": "d49a776e9b3e6c2c29fb0794c74098997b2458fe",
+      "size": 471096
+    },
+    {
+      "path": "src/cpus/M68K/m68ki_instruction_jump_table.h",
+      "git_blob_sha1": "3a79d5933c9a2dd189be3602cfc2f4d81de897ac",
+      "size": 1186309
+    },
+    {
+      "path": "src/cpus/M68K/m68ki_instruction_jump_table_full.h",
+      "git_blob_sha1": "eac71feadb137dbe1fb316675371386979ebf496",
+      "size": 1246306
+    },
+    {
+      "path": "src/cpus/M68K/m68kops.h",
+      "git_blob_sha1": "b1a5adbbb32b8a57c30c462819a5ef1e9e81868a",
+      "size": 522550
+    },
+    {
+      "path": "src/cpus/M68K/macros.h",
+      "git_blob_sha1": "b63784d20541a5227f095c85bb2d73153bba2d30",
+      "size": 2596
+    },
+    {
+      "path": "src/cpus/M68K/readme.txt",
+      "git_blob_sha1": "91549011e4f708f2e87fc78efd001b7250b7c07d",
+      "size": 10523
+    },
+    {
+      "path": "src/cpus/Z80/Codes.h",
+      "git_blob_sha1": "ab5cc6e58f1214af5978bbbe2d8d59dfb292e80b",
+      "size": 13759
+    },
+    {
+      "path": "src/cpus/Z80/CodesCB.h",
+      "git_blob_sha1": "dd904d400d2cbfd97126a549062351b9b10b2648",
+      "size": 11420
+    },
+    {
+      "path": "src/cpus/Z80/CodesED.h",
+      "git_blob_sha1": "075ec99d3da3964351e9ae51dd346caf409903e6",
+      "size": 7376
+    },
+    {
+      "path": "src/cpus/Z80/CodesXCB.h",
+      "git_blob_sha1": "9a893066d433e8e2868b2f63b13a95ea1072954d",
+      "size": 3289
+    },
+    {
+      "path": "src/cpus/Z80/CodesXX.h",
+      "git_blob_sha1": "ad84f457aee57ee3e83215d88713832845a98fbc",
+      "size": 14646
+    },
+    {
+      "path": "src/cpus/Z80/ConDebug.c",
+      "git_blob_sha1": "6989102cc972f0a46337c91e4bb0fd8a974a0b12",
+      "size": 7613
+    },
+    {
+      "path": "src/cpus/Z80/Debug.c",
+      "git_blob_sha1": "bc8c2870a37f40e2acd2d28bc5d02e371bb85526",
+      "size": 20234
+    },
+    {
+      "path": "src/cpus/Z80/Tables.h",
+      "git_blob_sha1": "dbb299ad148e615010f3d2132a4d134861b7f806",
+      "size": 23676
+    },
+    {
+      "path": "src/cpus/Z80/Z80.c",
+      "git_blob_sha1": "6ec53f1f56458c5cdb9b02fb26a59a23acef9a49",
+      "size": 22379
+    },
+    {
+      "path": "src/cpus/Z80/Z80.h",
+      "git_blob_sha1": "96e10641c4827e2bc0a791f48bb3ef8b2c76f76b",
+      "size": 8644
+    },
+    {
+      "path": "src/cpus/gen68k/gen68k_adapter.c",
+      "git_blob_sha1": "2d32f824abec81300d482766cedd20c815c1d423",
+      "size": 18624
+    },
+    {
+      "path": "src/cpus/gen68k/gen68k_adapter.h",
+      "git_blob_sha1": "a03b64c68979d228cf6fad574ccbaf8f227c585c",
+      "size": 418
+    },
+    {
+      "path": "src/io/gwenesis_io.c",
+      "git_blob_sha1": "0735dfdb646a4f9590b897322e3c72aa48da2c08",
+      "size": 6036
+    },
+    {
+      "path": "src/io/gwenesis_io.h",
+      "git_blob_sha1": "a1a1b753aa2cdc23043860858bce59c834b182b5",
+      "size": 1216
+    },
+    {
+      "path": "src/savestate/gwenesis_savestate.c",
+      "git_blob_sha1": "d54bb7754b9cd126b6d122e3663a149121718fcb",
+      "size": 1612
+    },
+    {
+      "path": "src/savestate/gwenesis_savestate.h",
+      "git_blob_sha1": "0fc4e268f2cc0ea5359a8aecc33f785ac284d44f",
+      "size": 1623
+    },
+    {
+      "path": "src/sound/gwenesis_sn76489.c",
+      "git_blob_sha1": "32cd3e90294665782dd4a5d6e59697c322c39fbd",
+      "size": 10967
+    },
+    {
+      "path": "src/sound/gwenesis_sn76489.h",
+      "git_blob_sha1": "6b9045670f8d8fbabe0415ced4e6e350a3d98f36",
+      "size": 2002
+    },
+    {
+      "path": "src/sound/ym2612.c",
+      "git_blob_sha1": "366927f78ec559048dfc4056a8df8219f28efc08",
+      "size": 65698
+    },
+    {
+      "path": "src/sound/ym2612.h",
+      "git_blob_sha1": "305feb02f8f0717726044d4bc1474fb709062d45",
+      "size": 6409
+    },
+    {
+      "path": "src/sound/z80inst.c",
+      "git_blob_sha1": "5fbf1fcc4aef8a60785a0ea98b5732ddffcec7fc",
+      "size": 8260
+    },
+    {
+      "path": "src/sound/z80inst.h",
+      "git_blob_sha1": "b89139446b61e57397bc382e6abef3ad1e0179ec",
+      "size": 1514
+    },
+    {
+      "path": "src/vdp/gwenesis_vdp.h",
+      "git_blob_sha1": "7d6fc64e39764eac942cccce9266dc81a86f1be8",
+      "size": 6848
+    },
+    {
+      "path": "src/vdp/gwenesis_vdp_gfx.c",
+      "git_blob_sha1": "a9e295d49ab1ee8872f7239620a4e36baa7e21c5",
+      "size": 37376
+    },
+    {
+      "path": "src/vdp/gwenesis_vdp_mem.c",
+      "git_blob_sha1": "e3d11cc2c6dcf6d8a37e8685b095216d071edaf1",
+      "size": 31787
+    }
+  ]
+}
